@@ -12,10 +12,10 @@ This is a full-stack real estate application built with JavaScript, React, Tailw
 ## Setup Instructions
 
 1. Clone the repository: `https://github.com/Arnab7456/Real-Estate-Full-stack-app.git`
-2. Install dependencies for frontend: `cd frontend && npm install`
-3. Install dependencies for backend: `cd backend && npm install`
+2. Install dependencies for frontend: `cd client && npm install`
+3. Install dependencies for backend: `npm install`
 4. Start the Vite development server for frontend: `cd frontend && npm run dev`
-5. Start the backend server: `cd backend && npm run dev`
+5. Start the backend server: `npm run dev`
 6. Access the application at `http://localhost:3000`
 
 ## Usage
