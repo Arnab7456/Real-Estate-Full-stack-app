@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const RENDER_SERVICE_URL =  'https://real-estate-full-stack-app.onrender.com/';
-const POLLING_INTERVAL = 14 * 60 * 1000; // 14 minutes (Render's free tier sleeps after 15 minutes of inactivity)
+const POLLING_INTERVAL = 14 *60 * 60 * 1000; // 14 minutes (Render's free tier sleeps after 15 minutes of inactivity)
 
 function keepServerAlive() {
   try {
